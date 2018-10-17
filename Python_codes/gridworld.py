@@ -32,7 +32,7 @@ for i in range(0, WORLD_SIZE):
 			nextS['R'] = [i , j + 1]
 
 		nextState[i].append(nextS)
-
+//checkinh conditions
 while True:
 	newWorld  = np.zeros((WORLD_SIZE, WORLD_SIZE))
 	for i in range(WORLD_SIZE):
